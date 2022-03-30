@@ -1,0 +1,1 @@
+(()=>{const e="active";document.querySelectorAll(".mobile-menu").forEach((c=>{c.querySelectorAll(".menu-item").forEach((t=>{t.addEventListener("click",(()=>{const l=c.querySelector(".menu-item.active");l&&l.classList.remove(e),t.classList.add(e)}))}))}))})();
