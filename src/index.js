@@ -1,3 +1,5 @@
+import "./style.css";
+
 (() => {
   const mobileMenuClassName = "mobile-menu";
   const menuItemClassName = "menu-item";
