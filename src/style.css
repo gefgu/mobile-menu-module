@@ -1,0 +1,13 @@
+.container {
+  margin-top: 32px;
+}
+
+.mobile-menu {
+  width: 100%;
+  display: flex;
+  text-align: center;
+}
+
+.mobile-menu .menu-item {
+  flex: 1;
+}
