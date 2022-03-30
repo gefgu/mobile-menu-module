@@ -6,8 +6,16 @@
   width: 100%;
   display: flex;
   text-align: center;
+  gap: 36px;
 }
 
 .mobile-menu .menu-item {
   flex: 1;
+  width: 150px;
+  font-size: 1.5rem;
+  padding-bottom: 8px;
+}
+
+.mobile-menu .menu-item.active {
+  border-bottom: 1px solid black;
 }
